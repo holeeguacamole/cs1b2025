@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+/* string readString(string x){
+    for(i = 0; i == string x[++i]; i++){
+        string stringCount = 0;
+        string stringCount++; 
+    }
+    
+} */
+
+int main(){
+   /* enter string
+    get string length
+    use legnth to make an array
+    make loop that reads first letter of string and if equal to second char adds to counter and put number in nnew array */
+string s = "aaaabbbccaa";
+string output = "";
+int i =0;
+while (i < s.length()){
+    char ch = s[i++];
+    int counter = 1;
+    while (i < s.length() and s[i] == ch){
+        counter++;
+        i++;
+ }}
+
+}
